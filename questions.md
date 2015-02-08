@@ -18,4 +18,5 @@ from: https://golang.org/ref/spec#Numeric_types
 
  - do you find yourself actually using "naked returns"?
  - what were some of your biggest "a ha" moments?
- - what tools other than the go command do you use?
+ - what tools / sublime stuff other than the go command do you use?
+
