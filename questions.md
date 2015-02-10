@@ -12,11 +12,11 @@ from: https://golang.org/ref/spec#Numeric_types
 
  - Why is there an `int` and various levels of precision, yet there is no `float` but only `float32` and `float64`?
 
-
-
 ### for Steven
 
  - do you find yourself actually using "naked returns"?
  - what were some of your biggest "a ha" moments?
  - what tools / sublime stuff other than the go command do you use?
 
+
+ - how does Go not have a ternary?
