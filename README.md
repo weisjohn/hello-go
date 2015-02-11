@@ -11,7 +11,7 @@ File that are named "exercise-" are solutions to those exercises.
 I have one example which is quite helpful to show the benefits of concurrency. Writing programs that are concurrent can (but do not necessarily) benefit from parallelization. This is a stupid example, but it's intended to show that if you run a concurrent Go program in a parallel way, you can achieve speed improvements.
 
 
-To demonstrate this, I've written a small package in this folder called [counter](./counter) which initializes an array with values 1...n and then returns a `func() int` which, when invoked, will loop through the array and return the last value in it.
+To demonstrate this, I've written a small package in this folder called [counter](./counter/counter.go) which initializes an array with values 1...n and then returns a `func() int` which, when invoked, will loop through the array and return the last value in it.
 
 I have two implementations: [counter-loop.go](./counter-loop.go) is a simple for-loop, and [counter-goroutine.go](./counter-goroutine.go) another that uses goroutines. Each program prints the duration and the calculated value.
 
