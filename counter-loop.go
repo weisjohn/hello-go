@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/weisjohn/hello/counter"
+	"github.com/weisjohn/hello-go/counter"
 	"time"
 )
 
