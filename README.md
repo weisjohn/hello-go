@@ -8,7 +8,7 @@ File that are named "exercise-" are solutions to those exercises.
 
 ### concurrency != parallelization
 
-I have one example which is quite helpful to show the benefits of concurrency. Writing programs that are concurrent can (but do not necessarily) benefit from concurrency. This is a stupid example, but it's intended to show that if you run a concurrent Go program in a parallel way, you can achieve speed improvements.
+I have one example which is quite helpful to show the benefits of concurrency. Writing programs that are concurrent can (but do not necessarily) benefit from parallelization. This is a stupid example, but it's intended to show that if you run a concurrent Go program in a parallel way, you can achieve speed improvements.
 
 
 To demonstrate this, I've written a small package in this folder called [counter](./counter) which initializes an array with values 1...n and then returns a `func() int` which, when invoked, will loop through the array and return the last value in it.
