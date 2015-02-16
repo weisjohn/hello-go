@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	resp, _ := http.Get("http://johnweis.com")
+	resp, _ := http.Get("http://new.johnweis.com")
 	refs := htmlrefs.All(resp.Body)
 
 	for _, ref := range refs {
