@@ -10,6 +10,6 @@ func main() {
 	resources := crawler.Crawl("http://johnweis.com")
 
 	for uri, hash := range resources {
-		fmt.Printf("%s : %s \n", hash, uri)
+		fmt.Printf("%s : %s\n", hash, uri)
 	}
 }
