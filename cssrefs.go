@@ -33,7 +33,7 @@ func main() {
 	// get the refs from the implementation
 	refs := cssrefs.All(reader)
 
-	for i, req := range refs {
-		fmt.Println(i, req)
+	for _, req := range refs {
+		fmt.Println(req.Token, ":", req.URI)
 	}
 }
