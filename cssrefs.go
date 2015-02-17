@@ -12,6 +12,7 @@ func main() {
 	reader := strings.NewReader(`
 
         @import url("fineprint.css") print;
+        @import "../foo.css";
 
         @font-face {
           font-family: 'Glyphicons Halflings';
